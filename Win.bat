@@ -1,5 +1,7 @@
 @echo off
-echo Checking if script contains Administrative rights...
+echo Thank C/Staff Sergeant Ianni for making your life easier
+pause
+echo Checking if script was run Administrative rights...
 net sessions
 if %errorlevel%==0 (
 echo Success!
